@@ -1,0 +1,33 @@
+/* RESET STYLES */
+h3{ margin: 0; }
+
+ul{
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.container{
+  width: 90%;
+  max-width: 1200px;
+  min-width: 600px;
+  margin: 0 auto;
+  background: #d9d9d9;
+}
+
+header, footer{
+  width: 100%;
+  clear: both;
+  background: pink;
+  box-sizing: border-box;
+}
+
+.container .left-bar{
+  box-sizing: border-box;
+  min-height: 300px;
+}
+
+.container .main-view{
+  box-sizing: border-box;
+  min-height: 600px;
+}
