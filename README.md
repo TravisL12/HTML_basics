@@ -1,0 +1,1 @@
+This is a basic HTML/CSS template to help teach web development basics.
