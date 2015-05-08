@@ -1,3 +1,4 @@
+// Vanilla JS Approach
 // var submitForm  = document.getElementById('post-form');
 // var newTitle    = document.getElementById('new-title');
 // var newBody     = document.getElementById('new-post');
@@ -14,23 +15,25 @@
 //   content.appendChild(div);
 // }
 
-var $newTitle = $('#new-title');
-var $newBody  = $('#new-post');
 
-$('#post-form').on('click', function() {
-  appendPost($newTitle, $newBody)
-});
+// jQuery Approach
+// var $newTitle = $('#new-title');
+// var $newBody  = $('#new-post');
 
-function appendPost(postTitle, postBody) {
-  if(postTitle.val(), postBody.val() ){
-    var title = '<h3>' + postTitle.val() + '</h3>';
-    var body = '<p>' + postBody.val() + '</p>';
-    $('#content').append('<div class="read-only-post">' + title + body + '</div>');
-    resetForm(postTitle, postBody)
-  }
-};
+// $('#post-form').on('click', function() {
+//   appendPost($newTitle, $newBody)
+// });
 
-function resetForm(postTitle, postBody) {
-  postTitle.val('');
-  postBody.val('');
-}
+// function appendPost(postTitle, postBody) {
+//   if(postTitle.val(), postBody.val() ){
+//     var title = '<h3>' + postTitle.val() + '</h3>';
+//     var body = '<p>' + postBody.val() + '</p>';
+//     $('#content').append('<div class="read-only-post">' + title + body + '</div>');
+//     resetForm(postTitle, postBody)
+//   }
+// };
+
+// function resetForm(postTitle, postBody) {
+//   postTitle.val('');
+//   postBody.val('');
+// }
